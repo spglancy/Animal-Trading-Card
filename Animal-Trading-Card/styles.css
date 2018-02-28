@@ -1,0 +1,39 @@
+/* constrain image to 300x200 and provide spacing between title and info*/
+#constraint {
+	width:300px;
+	height:200px;
+  padding-bottom:15px;
+  padding-top:5px;
+  cursor:pointer;
+}
+/* align card to center and provide the border*/
+body {
+  margin-left:37%;
+  border:solid thin gray;
+  position:absolute;
+  padding-left:10px;
+  margin-right:37%;
+  width:330px;
+}
+/* italicize interesting fact */
+#italic {
+  font-style:italic;
+  width:320px;
+}
+/* bold list items */
+.bold {
+  font-weight:bold;
+}
+/* provide border for info */
+#container {
+  border:solid thin gray;
+  margin-right:10px;
+  margin-bottom:10px;
+  padding-left: 10px;
+  padding-right:10px;
+}
+/* remove bullet points and realign list */
+ul {
+  list-style-type:none;
+  margin-left:-40px;
+}
